@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layouts</title>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .div-ex{
+        width: 320px;
+        padding: 6px 6px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 6px;
+      }
+
+      .profile-picture{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 8px;
+      }
+
+      .text-box{
+        vertical-align: middle;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 13px;
+      }
+
+      .tweet-button{
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 80px;
+        border: none;
+        background-color: rgb(89, 89, 224);
+        color: white;
+        padding: 5px 13px;
+        border-radius: 20px;
+        font-weight: bold;
+      }
+
+      .social-profile{
+        margin-top: 20px;
+        box-shadow: 0 0 6px rgb(0,0,0,0.3);
+        width: 180px;
+        padding-bottom: 10px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .profile{
+        height: 180px;
+        width: 180px;
+        object-fit: cover;
+      }
+
+      .username{
+        padding-left: 5px;
+        font-weight: bold;
+      }
+
+      .connections{
+        padding-left: 5px;
+        font-size: 12px;
+        color: gray;
+        margin-top: 2px;
+      }
+
+      .friends-button{
+        margin-top: 7px;
+        border: none;
+        background-color: rgb(42, 42, 214);
+        color: white;
+        margin-left: 5px;
+        padding: 5px 10px;
+        border-radius: 3px;
+      }
+
+      .frnds, .dp-div{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .dp{
+        height: 25px;
+        width: 25px;
+        border-radius: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="social-profile">
+        <div><img class="profile" src="Images/cat.jpg"/></div>
+        <div><p class="username">Oliver</p></div>
+        <div>
+          <div class="dp-div">
+            <img class="dp" src="Images/dog2.jpg">
+          </div>
+          <div class="frnds">
+            <p class="connections">2 mutual friends</p>
+          </div>
+        </div>
+        <div><button class="friends-button">Add Friend</button></div>
+      </div>
+
+
+      <div class="social-profile">
+        <div><img class="profile" src="Images/cat2.jpg"/></div>
+        <div><p class="username">Mimi</p></div>
+        <div>
+          <div class="dp-div">
+            <img class="dp" src="Images/dog2.jpg">
+          </div>
+          <div class="frnds">
+            <p class="connections">3 mutual friends</p>
+          </div>
+        </div>
+        <div><button class="friends-button">Add Friend</button></div>
+      </div>
+
+
+      <div class="social-profile">
+        <div><img class="profile" src="Images/dog.jpg"/></div>
+        <div><p class="username">Rex</p></div>
+        <div>
+          <div class="dp-div">
+            <img class="dp" src="Images/dog2.jpg">
+          </div>
+          <div class="frnds">
+            <p class="connections">4 mutual friends</p>
+          </div>
+        </div>
+        <div><button class="friends-button">Add Friend</button></div>
+      </div>
+    </div>
+  </body>
+</html>
