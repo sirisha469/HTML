@@ -10,7 +10,10 @@
         font-family: Arial;
       }
       .main{
-        width: 400px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         border: 1px solid rgb(200, 200, 200);
         padding-top: 5px;
         padding-bottom: 5px;
@@ -24,23 +27,6 @@
         margin-right: 5px;
       }
 
-      .profile, .info, .follow-button-a, .follow-button-b, .follow-button-c{
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      .follow-button-a{
-        margin-left: 200px;
-      }
-
-      .follow-button-b{
-        margin-left: 180px;
-      }
-
-      .follow-button-c{
-        margin-left: 150px;
-      }
-
       button{
         padding: 10px 10px;
         color: white;
@@ -48,22 +34,33 @@
         border: none;
         border-radius: 10px;
         font-weight: bold;
+        margin-right: 5px;
       }
 
       .main-long{
         border: 1px solid rgb(200, 200, 200);
-        width: 400px;
+        width: 600px;
         margin-top: 20px;
         padding-bottom: 5px;
       }
       .main-sub{
-        width: 400px;
         padding-top: 5px;
         padding-bottom: 5px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
       }
+
       .title{
         font-weight: bold;
         font-size: 18px;
+      }
+
+      .info{
+        flex: 1;
+        margin-left: 5px;
+        margin-right: 5px;
       }
     </style>
     
@@ -86,7 +83,7 @@
         </div>
       </div>
 
-      <div class="follow-button-a">
+      <div class="follow-button">
         <button>Follow</button>
       </div>
     </div>
@@ -110,7 +107,7 @@
           </div>
         </div>
   
-        <div class="follow-button-a">
+        <div class="follow-button">
           <button>Follow</button>
         </div>
       </div>
@@ -133,7 +130,7 @@
           </div>
         </div>
   
-        <div class="follow-button-b">
+        <div class="follow-button">
           <button>Follow</button>
         </div>
       </div>
@@ -156,7 +153,7 @@
           </div>
         </div>
   
-        <div class="follow-button-c">
+        <div class="follow-button">
           <button>Follow</button>
         </div>
       </div>
