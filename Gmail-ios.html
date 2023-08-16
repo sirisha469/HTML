@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gmail ios</title>
+
+    <style>
+      p{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .main{
+        width: 340px;
+        border-color: rgb(206, 206, 206);
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .inbox{
+        color: gray;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      .sub-main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      img{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+
+      .mail{
+        width: 280px;
+      }
+
+      .mail-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+      }
+
+      .title{
+        font-weight: bold;
+        font-size: 14px;
+        padding-right: 15px;
+      }
+
+      .mail-subject{
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 3px;
+      }
+
+      .time{
+        color: gray;
+        font-size: 12px;
+        margin-right: 10px;
+      }
+
+      .mail-content{
+        color: gray;
+        font-size: 12px;
+        margin-top: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <p class="inbox">ALL INBOXES</p>
+      <div class="sub-main">
+        <div>
+          <img src="Images/cat.jpg">
+        </div>
+        <div class="mail">
+          <div class="mail-info">
+            <p class="title">Chewy Promotions</p>
+            <p class="time">4:58 PM</p>
+          </div>
+          <div>
+            <p class="mail-subject">Biggest sales of the year!</p>
+          </div>
+          <div>
+            <p class="mail-content">Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-main">
+        <div>
+          <img src="Images/dog.jpg">
+        </div>
+        <div class="mail">
+          <div class="mail-info">
+            <p class="title">Best Buy</p>
+            <p class="time">12:32 PM</p>
+          </div>
+          <div>
+            <p class="mail-subject">Your Best Buy eReceipt</p>
+          </div>
+          <div>
+            <p class="mail-content">Thank you for shopping at Best Buy, here is ...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-main">
+        <div>
+          <img src="Images/cat2.jpg">
+        </div>
+        <div class="mail">
+          <div class="mail-info">
+            <p class="title">Netflix</p>
+            <p class="time">9:00 AM</p>
+          </div>
+          <div>
+            <p class="mail-subject">Here's what's coming soon to Netflix</p>
+          </div>
+          <div>
+            <p class="mail-content">Brand new movies and shows, old favorites...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
