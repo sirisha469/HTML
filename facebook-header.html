@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook Header</title>
+
+    <style>
+      body{
+        font-family: Arial;
+      }
+      .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        height: 60px;
+        background-color: white;
+        border-bottom-width: 1px;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .left{
+        display: flex;
+        margin-left: 80px;
+        align-items: center;
+      }
+
+      .right{
+        display: flex;
+        margin-right: 70px;
+      }
+
+      img{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-right: 8px;
+      }
+
+      .name{
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .frnd{
+        background-color: rgb(29, 161, 242);
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-right: 5px;
+        padding: 7px 10px;
+      }
+
+      .msg{
+        background-color: rgb(228, 228, 228);
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-right: 5px;
+        padding: 7px 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <div>
+          <img src="Images/cat.jpg">
+        </div>
+        <div class="name">
+          <p>Oliver Cat</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="frnd-button">
+          <button class="frnd">Add Friend</button>
+        </div>
+        <div class="msg-button">
+          <button class="msg">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
