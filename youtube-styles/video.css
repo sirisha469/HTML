@@ -11,18 +11,18 @@
 
 .thumbnail-row{
   position: relative;
+  margin-bottom: 8px;
 }
 
 
 .video-title{
-  /* width: 300px; */
   font-weight: bold;
 }
 
 .video-author {
   font-size: 12px;
   color: gray;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .video-stats{
@@ -36,16 +36,8 @@
   grid-template-columns: 50px 1fr;
 }
 .channel-pro{
-  width: 50px;
+  width: 36px;
   border-radius: 25px;
-}
-
-.channel-info{
-  margin-left: 15px;
-}
-
-.channel-profile, .channel-info{
-  margin-top: 10px;
 }
 
 .video-grid{
